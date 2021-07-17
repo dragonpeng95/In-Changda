@@ -1,0 +1,22 @@
+﻿  speechManager.cpp
+E:\VS2019coding\基于STL的演讲比赛流程管理系统\基于STL的演讲比赛流程管理系统\speechManager.cpp(60,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\VS2019coding\基于STL的演讲比赛流程管理系统\基于STL的演讲比赛流程管理系统\speechManager.cpp(222,81): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+F:\VS2019\IDE\VC\Tools\MSVC\14.28.29910\include\numeric(35,26): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+F:\VS2019\IDE\VC\Tools\MSVC\14.28.29910\include\numeric(44): message : 查看对正在编译的函数 模板 实例化“_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)”的引用
+          with
+          [
+              _Ty=float,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+E:\VS2019coding\基于STL的演讲比赛流程管理系统\基于STL的演讲比赛流程管理系统\speechManager.cpp(128): message : 查看对正在编译的函数 模板 实例化“_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,float>(const _InIt,const _InIt,_Ty)”的引用
+          with
+          [
+              _Ty=float,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  基于STL的演讲比赛流程管理系统.vcxproj -> E:\VS2019coding\基于STL的演讲比赛流程管理系统\Debug\基于STL的演讲比赛流程管理系统.exe
